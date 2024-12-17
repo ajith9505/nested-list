@@ -1,0 +1,24 @@
+#node{
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  cursor: pointer;
+}
+
+#symbol-container{
+  width: 10px;
+}
+
+#folder-svg{
+  color: rgb(95, 130, 217);
+}
+
+#greater-svg{
+  font-size: 8px;
+  margin-right: 5px;
+  transition: all 0.2s ease-in-out;
+}
+
+#greater-svg.active{
+  transform: rotate(90deg);
+}
